@@ -32,3 +32,25 @@ count = 10
 # decrement count 
 count -= 1
 print(count)
+
+# Comparison Operators 
+a = 10
+b = 5
+c = 3
+d = 2
+
+print(a == b)
+print(a > b)
+print(a < b)
+
+# Logical Operators 
+res_and = a > b and c < d # T and F -> F
+print(res_and)
+res_and = a > b and c > d # T and T -> T
+print(res_and)
+
+res_or = a > b or c < d # T or F -> T
+print(res_or)
+
+res_or = a > b # T
+print(not res_or) # F
