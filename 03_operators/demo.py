@@ -54,3 +54,36 @@ print(res_or)
 
 res_or = a > b # T
 print(not res_or) # F
+
+# Membership Operators
+# string is a sequence data type
+data = "python is language"
+is_z_present = "z" in data
+print(is_z_present)
+is_p_present = "p" in data
+print(is_p_present)
+
+is_python_present = "python" in data
+print(is_python_present)
+
+# employees 
+id = 105
+emp_ids = [101,102,103,104,106,107,108,109,110]
+is_id_present = id in emp_ids
+print(is_id_present)
+
+is_id_not_present = id not in emp_ids
+print(is_id_not_present)
+
+# Identity Operators
+num1 = 10
+num2 = 10
+print(num1 == num2) # Comparison of values
+print(num1 is num2) # Comparison of memory
+
+
+a = [10,20]
+b = [10,20] 
+
+print(a == b) # Comparison of values
+print(a is b) # Comparison of memory
