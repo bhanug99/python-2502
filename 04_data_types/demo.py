@@ -59,3 +59,28 @@ print(type(b))
 c = a + b # dynamic 
 print(c)
 print(type(c))
+
+# Type Casting
+pi = 3.14 # float 
+print(type(pi))
+print(pi) 
+
+# req round of pi and give whole number
+pi_round_int = int(pi)
+print(type(pi_round_int))
+print(pi_round_int) 
+
+rating = "4"
+print(type(rating))
+# increment_rating = rating + 1 # TypeError: can only concatenate str (not "int") to str
+increment_rating = int(rating) + 1
+print(increment_rating)
+print(type(increment_rating))
+
+new_rating = "four" # incompatible conversion 
+print(type(rating))
+# increment_rating = new_rating + 1 # TypeError: can only concatenate str (not "int") to str
+# increment_rating = int(new_rating) + 1 # ValueError: invalid literal for int() with base 10: 'four'
+
+num = 10
+print(type(10))
