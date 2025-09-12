@@ -50,3 +50,12 @@ class Student:
     pass # syntax 
 student_john = Student()
 print(type(student_john)) # <class '__main__.Student'> --> __main__ indicates user defined datatype
+
+# Type Conversion 
+a = 10 # int 
+print(type(a))
+b = 3.5 # float
+print(type(b)) 
+c = a + b # dynamic 
+print(c)
+print(type(c))
