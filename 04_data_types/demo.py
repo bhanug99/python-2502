@@ -43,3 +43,10 @@ print(type(data))
 # None Type
 x = None
 print(type(x))
+
+# User defined datatype
+class Student:
+    # logics
+    pass # syntax 
+student_john = Student()
+print(type(student_john)) # <class '__main__.Student'> --> __main__ indicates user defined datatype
